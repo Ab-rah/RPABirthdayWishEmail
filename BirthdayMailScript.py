@@ -5,7 +5,7 @@ import datetime
 import os
 import base64
 
-postmark = PostmarkClient(server_token='eb076a95-434e-415c-a50a-8a7b57b9f6ea')
+postmark = PostmarkClient(server_token='XXXXX-XXXX-415c-a50a-8a7b57b9f6ea')
 input_path = r"C:\Users\AbdhulRahimSheikh.M\Downloads\ICE futures\inputs\BirthdaySheet.xlsx"
 df = pd.read_excel(input_path)
 EmployeeName = df['NAME'].tolist()
